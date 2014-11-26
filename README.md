@@ -31,5 +31,25 @@ Database Application
     pip install SQLAlchemy
 
     ```
+## how to run
+
+    start the mysqld demon process in the backend
+
+    ```
+    mysqld
+
+    ```
+    start the backend sql program
+
+    ```
+    ./sql.py
+
+    ```
+    execute the sehll script which includes generating the new xml files 
+
+    ```
+    ./run.sh
+
+    ```
 
 
