@@ -51,5 +51,42 @@ Database Application
     ./run.sh
 
     ```
+    after running through all those steps, the new_test.xml
+    is the final output generated from database
+
+
+## functions
+#   init_db()
+
+create a db session
+
+#   class Node
+
+table Node definition
+
+#   class Database
+table Database definition
+
+#   class Datacenter
+table Datacenter definition
+
+#   class OS
+table OS definition
+
+#   class PatchRelease
+table PatchRelease definition
+
+#   class App
+table App definition
+
+#   function main
+call the index.html page showing
+
+#   function generate()
+function to get request from the web page on the front end and insert the values into the tables
+
+#   function create()
+function to create xml file from database
+
 
 
