@@ -3,13 +3,11 @@ Database Application
 
 ## Tools to install 
 1. lxml
-   type in the command line
     ``` 
     sudo pip install lxml
 
     ```
 2. flask
-   type in the command line
     ```
     sudo pip install virtualenv
     mkdir myproject
@@ -19,7 +17,9 @@ Database Application
     venv\scripts/activate
 
     ```
+
   now install flask
+
     ```
     pip install Flask
 
@@ -27,7 +27,6 @@ Database Application
 
 3. sqlalchemy
 
-   type in the commmand line
     ```
     pip install SQLAlchemy
 
