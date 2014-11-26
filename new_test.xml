@@ -1,0 +1,6 @@
+<project>
+  <node app_environment="prod" bus_type="rabbitmq" data_center="acc4" data_center_site_type="main" db_cluster_type="standby" db_name="xx" db_type="tokumx" description="xx" hostname="xx" last_patch_date="xx" last_release_date="xx" osArch="xx" osFamily="xx" osName="xx" osVersion="xx" patch_group="patchA" platform="admin" release_group="releaseA" role="xx" server_type="app" status="limbo" tags="xx" type="xx" username="xx"/>
+  <node app_environment="prod" bus_type="rabbitmq" data_center="acc4" data_center_site_type="main" db_cluster_type="standby" db_name="xx" db_type="tokumx" description="xx" hostname="xx" last_patch_date="xx" last_release_date="xx" osArch="xx" osFamily="xx" osName="xx" osVersion="xx" patch_group="patchA" platform="admin" release_group="releaseA" role="xx" server_type="app" status="limbo" tags="xx" type="xx" username="xx"/>
+  <node app_environment="prod" bus_type="rabbitmq" data_center="acc4" data_center_site_type="main" db_cluster_type="standby" db_name="yyy" db_type="tokumx" description="yyy" hostname="yy" last_patch_date="yy" last_release_date="yy" osArch="yy" osFamily="yy" osName="yy" osVersion="yy" patch_group="patchA" platform="admin" release_group="releaseA" role="yy" server_type="app" status="limbo" tags="yy" type="yy" username="yy"/>
+</project>
+

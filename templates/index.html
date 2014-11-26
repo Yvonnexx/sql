@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            project
+        </title>
+    </head>
+    <body>
+        <form action='/create'>
+            please select a value for the platform<br>
+            <select name="platform">
+                <option value="admin">admin</option>
+                <option value="olp">olp</option>
+                <option value="shasta">shasta</option>
+                <option value="other">other</option>
+                <option value="support_portal">support_portal</option>
+                <option value="oxygen">oxygen</option>
+            </select>
+            <br>
+            please select a value for data_center<br>
+            <select name="data_center">
+                <option value="acc4">acc4</option>
+                <option value="acc5">acc5</option>
+                <option value="tucson">tucson</option>
+                <option value="charlotte">charlotte</option>
+                <option value="st2">st2</option>
+                <option value="navisite">navisite</option>
+                <option value="carpathia">carpathia</option>
+            </select>
+            <br>
+            please select a value for app_environment<br>
+            <select name="app_env">
+                <option value="prod">prod</option>
+                <option value="stage">stage</option>
+                <option value="load1">load1</option>
+                <option value="load2">load2</option>
+                <option value="int1">int1</option>
+                <option value="int2">int2</option>
+                <option value="int3">int3</option>
+                <option value="dev">dev</option>
+                <option value="qa">qa</option>
+                <option value="beta">beta</option>
+                <option value="extint">extint</option>
+            </select>
+            <br>
+            please select a value for status<br>
+            <select name="status">
+                <option value="limbo">limbo</option>
+                <option value="notlive">notlive</option>
+                <option value="decom">decom</option>
+            </select>
+            <br>
+            please select a value for data_center_site_type<br>
+            <select name="data_center_site_type">
+                <option value="main">main</option>
+                <option value="alt1">alt1</option>
+                <option value="alt2">alt2</option>
+            </select>
+            <br>
+            please select a value for patch_group<br>
+            <select name="patch_group">
+                <option value="patchA">patchA</option>
+                <option value="patchB">patchB</option>
+            </select>
+            <br>
+            please select a value for release group<br>
+            <select name="release_group">
+                <option value="releaseA">releaseA</option>
+                <option value="releaseB">releaseB</option>
+            </select>
+            <br>
+            please select a value for db_cluster_type<br>
+            <select name="db_cluster_type">
+                <option value="standby">standby</option>
+                <option value="primary">primary</option>
+            </select>
+            <br>
+            please select a value for server_type<br>
+            <select name="server_type">
+                <option value="app">app</option>
+                <option value="www">www</option>
+                <option value="db">db</option>
+            </select>
+            <br>
+            please select a value for bus_type<br>
+            <select name="bus_type">
+                <option value="rabbitmq">rabbitmq</option>
+            </select>
+            <br>
+            please select a value for db_type<br>
+            <select name="db_type">
+                <option value="tokumx">tokumx</option>
+                <option value="couchdb">couchdb</option>
+                <option value="oracle">oracle</option>
+                <option value="mysql">mysql</option>
+                <option value="postgress">postgree</option>
+            </select>
+            <br>hostname:<input type="text" name="hostname">
+            <br>username:<input type="text" name="username">
+            <br>tags:<input type="text" name="tags">
+            <br>type:<input type="text" name="t">
+            <br>description:<input type="text" name="description">
+            <br>db_name:<input type="text" name="db_name">
+            <br>data_center:<input type="text" name="data_center">
+            <br>osArch:<input type="text" name="osArch">
+            <br>osFamily:<input type="text" name="osFamily">
+            <br>osName:<input type="text" name="osName">
+            <br>osVersion:<input type="text" name="osVersion">
+            <br>last_patch_date:<input type="text" name="last_patch_date">
+            <br>last_release_date:<input type="text" name="last_release_date">
+            <br>role:<input type="text" name="role">
+            <br>
+                <br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
